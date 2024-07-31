@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21",
+    "minecraft:item": {
+      "description": {
+        "identifier": "pcc:champion_cape",
+        "category" : "Equipment"
+      },
+      "components": {
+        "minecraft:icon": "pcc:items/champion_cape",
+        "minecraft:display_name": {
+          "value": "§6冠军钢板披风",
+          "minecraft:creative_category": { "parent": "itemGroup.name.Equipment" },
+          "minecraft:wearable": {  
+        "slot": "armor_torso"  
+         }, 
+         "protection": 3
+        }
+      }
+    }
+  }
