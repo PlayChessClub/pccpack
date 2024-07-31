@@ -1,0 +1,15 @@
+{
+    "format_version": "1.16.0", 
+    "type" : "minecraft:overworld",
+    "generator":
+    {
+        "type":"flat",
+        "layers":
+        [{
+         "height":50,
+         "block":"minecraft:grass"
+        }
+        ],
+         "biome": "minecraft:plains"
+    }
+}
