@@ -1,15 +1,41 @@
 {
-    "format_version": "1.16.0", 
-    "type" : "minecraft:overworld",
+    "format_version": "1.21.0", 
+    "type" : "overworld",
     "generator":
     {
         "type":"flat",
-        "layers":
-        [{
-         "height":50,
-         "block":"minecraft:grass"
+        "settings":
+        {
+            "layers":
+            [
+               {
+                "height":1,
+                "block":"bedrock"
+                },
+               {
+                "height":100,
+                "block":"oak_planks"
+               },
+               {
+                "height":1,
+                "block":"suspicious_sand"
+               },
+               {
+                "height":1,
+                "block":"suspicious_gravel"
+               },
+               {
+                "height":1,
+                "block":"suspicious_sand"
+               },
+               {
+                "height":1,
+                "block":"grass_block"
+               }
+            ],
+            "biome":"snowy_taiga",
+            "lakes":true,
+            "features":true
         }
-        ],
-         "biome": "minecraft:plains"
     }
 }
