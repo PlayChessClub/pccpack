@@ -1,0 +1,23 @@
+{
+    "type":"crafting_shaped",
+    "pattern":[
+        "!@!",
+        "@#@",
+        "!@!"
+    ],
+    "key":{
+        "!":{
+            "item":"minecraft:diamond_block"
+        },
+        "@":{
+            "item":"minecraft:netherite_block"
+        },
+        "#":{
+            "item":"minecraft:apple"
+        }
+    },
+    "result":{
+        "id":"minecraft:enchanted_golden_apple"
+    }
+
+}
