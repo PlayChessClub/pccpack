@@ -1,0 +1,32 @@
+{
+    "criteria":
+    {
+        "test":
+        {
+            "trigger":"minecraft:consume_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items":"minecraft:milk_bucket"
+                },
+                "player":
+                {
+                    "location":
+                    {
+                        "structures":["village_desert","village_plains","village_savanna","village_snowy","village_taiga"]
+                    }
+                }
+            }
+        }
+    },
+    "display":
+    {
+        "description":"吃保登面包店的面包！",
+        "icon":
+        {
+            "id":"minecraft:milk_bucket"
+        },
+        "title":"成精的面包"
+    }
+}
